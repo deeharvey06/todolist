@@ -1,7 +1,7 @@
 // connet to the DB
 const mongoose = require('mongoose');
 mongoose.set('debug', true);
-const URL = 'mongodb://deeharvey06:1234@ds115124.mlab.com:15124/mod-0'
+const URL = // enter cloud database or setup local
 mongoose.connect(URL);
 
 mongoose.Promise = Promise;
